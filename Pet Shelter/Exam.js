@@ -11,7 +11,7 @@ function onClickSpeciesMenu() {
     console.log("animal ",value);
     
     if (value=='dog'){
-        alert("woof woof woof "+ value);
+        alert("woof woof woof "+  value);
     } else{
         alert("this is not a dog but.. "+ value);
     }
