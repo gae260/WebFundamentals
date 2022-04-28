@@ -1,0 +1,22 @@
+.row{
+    display: flex;
+}
+
+.col, .col2, .col3, .col4{
+    flex: 1;
+    height: 700px;
+    width: 400px;
+    background-color: darkblue;
+    margin: 10px;
+
+}
+.col1{
+
+}
+.col2{
+
+}
+.col3{
+
+
+}

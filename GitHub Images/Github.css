@@ -1,0 +1,44 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 800px;
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    
+}
+.h1{
+
+}
+
+.octocat{
+    height: 200px;
+    margin: 20px;
+}
+.rowblue{
+    background-color: skyblue;
+    width: 800px;
+    height: 245px;
+    margin: 10px;
+}
+
+.rowpink{
+    background-color: pink;
+    width: 800px;
+    height: 245px;
+    justify-content: center;
+    margin: 10px;
+}
+.row{
+    background-color: whitesmoke;
+    display: flex;
+    width: 800px;
+    height: 245px;
+    margin: 10px;
+    justify-content: space-around;
+
+}
+
+

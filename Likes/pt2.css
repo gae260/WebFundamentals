@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.bodie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    /* border: 2px solid black; */
+    width: 1000px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.network{
+    background-color: black;
+    color: white;
+    width: 950px;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 5px 10px 10px  20px;
+}
+
+.yourfeed{
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.icons{
+    width: 50px;
+    height: 50px;
+}
+.userinfo{
+    display: flex;
+    /* border: 2px solid orangered; */
+    width: 950px;
+    
+}
+
+.james{
+    flex: 1;
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px black;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+
+.userinfo2{
+    flex: 1.5;
+    /* border: 2px solid dodgerblue; */
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.ppl{
+    height: 150px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+    margin-bottom: 30px;
+    padding: 20px 0px 0px 15px;
+}
+
+.btn{
+    background-color: rgb(232, 206, 42);
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px black;
+    border: none;
+    height: 30px;
+    width: 90px;
+    margin-right: 10px;
+}
+
+.n1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.n2{
+    margin-top: 40px;
+}

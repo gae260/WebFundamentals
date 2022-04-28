@@ -1,0 +1,14 @@
+.row{
+    display: flex;
+}
+.col, .col2{
+    height: 600px;
+    width: 600px;
+    margin: 20px;
+    background-color: salmon;
+}
+
+.col2{
+    flex: 2;
+
+}

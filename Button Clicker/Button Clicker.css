@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    margin: 0px 0px 0px 350px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 800px;
+}
+
+
+.search{
+    width: 200px;
+    height: 25px;
+}
+
+.btn{
+    background-color: blue;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    color: white;
+    width: 65px;
+    height: 25px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    height: 900px;
+}
+
+.left col{
+    background-color: yellow;
+}
+.topbox, .bottombox{
+    width: 455px;
+    height: 200px;
+    border: 1px solid black;
+    flex: 2;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+
+.right col{
+
+}
+
+
+.box{
+    border: 2px solid black;
+    flex: 1;
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+    
+}
+
+.def{
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+
+.btn2{
+    width: 80px;
+    height: 30px;
+    /* margin-left: 10px; */
+    background-color: gold;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+
+.btn3{
+    background-color: rgb(37, 199, 37);
+    color: black;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    width: 200px;
+}

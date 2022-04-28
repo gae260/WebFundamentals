@@ -1,0 +1,37 @@
+.main{
+    width: 900px;
+    height: 600px;
+    border-style: solid;
+    border-color: green;
+    margin-left: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+
+
+}
+
+.sub{
+    background-color: red;
+    margin-top: 20px;
+    margin-left: 35px;
+
+}
+.profile{
+
+}
+
+.address{
+
+
+}
+
+.edit{
+
+}
+.icons{
+
+}
+.ppic{
+    width: 80px;
+    height: 80px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shelter</title>
+    <link rel="stylesheet" href="Shelter.css">
+</head>
+<body>
+    <div class="container">
+        <div class="topheader">
+            <div class="header">
+                <img src="image3/heart-light.png" alt="heart" id="heart"> 
+                <h1>Pet Shelter</h1>
+            </div>
+            <div class="fap">
+                <p>Find A Pet</p>
+                <p>About</p>
+                <button class="btn" onclick="removedonate()" id="donate">Donate</button>
+            </div>
+        </div>
+        <div class="bottomheader">
+            <div class="petstuff">
+                <p>I am looking for a....</p>
+                <span>
+                    <img src="image3/paw-light.png" alt="pawprint" class="icons">
+                    <select class="animals" id="animals" onchange="onClickSpeciesMenu()">
+                        <option value="anypet">Any Pet</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="bird">Bird</option>
+                    </select>
+                </span>
+            </div>
+            <div class="cityinfo">
+                <p>In or Near...</p>
+                <span>
+                    <img src="image3/pin-light.png" alt="droppin" class="icons">
+                    <input type="text" placeholder="City or Zip Code" name="search" class="input">
+                </span>
+            </div>
+            <button class="btn2">Find Your New Best Friend</button>
+        </div>
+        <div class="bottompage">
+            <div class="petnames">
+                <img src="image3/pepper.jpg" alt="pepper" class="img">
+                <div>
+                    <h4>Pepper</h4>
+                    <p>Pepper is slightly shy grey tabby, but she<br>
+                    really loves showing her human side</p>
+                </div>
+                <div class="pettings">
+                    <p>3 Petting(s)</p>
+                    <button class="btn3">Pet Pepper</button>
+                </div>
+            </div>
+            <div class="bruce">
+                <img src="image3/bruce.jpg" alt="bruce" class="img">
+                <div>
+                    <h4>Bruce</h4>
+                    <p>Bruce is a loyal companion. He loves<br>
+                    walks and cold weather.</p>
+                </div>
+                <div class="pettings">
+                    <p>5 Petting(s)</p>
+                    <button class="btn3">Pet Bruce</button>
+                </div>
+            </div>
+            <div class="petnames">
+                <img src="image3/oscar.jpg" alt="oscar" class="img">
+                <div>
+                    <h4>Oscar</h4>
+                    <p>Oscar is bright, engergetic and friendly. He is <br>
+                    looking for a good home</p>
+                </div>
+                <div class="pettings">
+                    <p>8 Petting(s)</p>
+                    <button class="btn3">Pet Oscar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Exam.js"></script>
+</body>
+</html>
